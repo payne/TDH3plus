@@ -109,7 +109,7 @@ style: |
 
 ![bg right:40% 80%](https://via.placeholder.com/300x500/1a1a2e/00d4ff?text=TD-H3+Plus)
 
-- **Price:** ~$50-70
+- **Price:** ~$40 -- [two for $80](https://www.amazon.com/dp/B0F2T7LXBB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) on 5/10/2026
 - **Power:** 5W output | **Battery:** 2500mAh Li-Po
 - **Channels:** 199 programmable | **Charging:** USB-C
 
