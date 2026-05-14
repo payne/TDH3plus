@@ -51,3 +51,61 @@ Created `presentation.md` - a comprehensive Marp presentation with 28 slides cov
 - [IEEE Spectrum - Quansheng UV-K5 Hacking](https://spectrum.ieee.org/quansheng-uv-k5-hacking)
 - [Egzumer Custom Firmware](https://github.com/egzumer/uv-k5-firmware-custom)
 - [ARRL Getting Licensed](http://www.arrl.org/getting-licensed)
+
+## User
+What is the npx command to generate index.html from presentation.md
+
+## Assistant
+```bash
+npx @marp-team/marp-cli presentation.md -o index.html
+```
+
+Or for a self-contained HTML file with all assets embedded:
+
+```bash
+npx @marp-team/marp-cli presentation.md -o index.html --html
+```
+
+## User
+Make the agenda on slide 2 hyperlinks
+
+## Assistant
+Updated the agenda to use anchor links and added corresponding anchor IDs to each target slide:
+
+- [Why Budget HAM Radios?](#why-budget)
+- [Meet the TD-H3 Plus](#td-h3-plus)
+- [The Competition](#competition)
+- [Table Stakes Features](#table-stakes)
+- [Claims to Fame](#claims-to-fame)
+- [Getting Licensed](#licensing)
+- [Q&A](#qa)
+
+## User
+Improve the contrast of the table on slide 4
+
+## Assistant
+Updated the table CSS styling for better contrast:
+- Header: bright cyan background (#00d4ff) with dark text
+- Rows: alternating background colors for readability
+- Added padding and borders between rows
+
+## User
+Improve the contrast of all tables -- the one on slide 9 and those after that
+
+## Assistant
+Enhanced the global table CSS for better contrast across all slides:
+- Added cyan border around entire table
+- Darker row backgrounds (#0f1629 and #1a2240) with pure white text
+- Visible cell borders (#3a3a5e)
+- Slightly larger font (0.85em)
+- Bold text preserved as yellow (#ffd93d)
+
+## User
+On the first slide put a note that includes:
+Last updated: Date & Time GMT
+Fork this presentation at https://github.com/payne/TDH3plus
+
+## Assistant
+Added to the bottom of slide 1:
+- Last updated: May 13, 2026 at 12:00 GMT
+- Fork link: github.com/payne/TDH3plus

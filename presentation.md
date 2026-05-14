@@ -22,11 +22,30 @@ style: |
     color: #00d4ff;
   }
   table {
-    font-size: 0.8em;
+    font-size: 0.85em;
+    border-collapse: collapse;
+    border: 2px solid #00d4ff;
+    width: 100%;
   }
   th {
-    background-color: #16213e;
-    color: #00d4ff;
+    background-color: #00d4ff;
+    color: #0a0a1a;
+    font-weight: bold;
+    padding: 14px 18px;
+    text-align: left;
+    border: 1px solid #00d4ff;
+  }
+  td {
+    background-color: #0f1629;
+    color: #ffffff;
+    padding: 12px 18px;
+    border: 1px solid #3a3a5e;
+  }
+  tr:nth-child(even) td {
+    background-color: #1a2240;
+  }
+  td strong {
+    color: #ffd93d;
   }
   a {
     color: #00d4ff;
@@ -45,17 +64,24 @@ style: |
 
 ---
 
-# Agenda
-
-1. **Why Budget HAM Radios?**
-2. **Meet the TD-H3 Plus** (Live Demo)
-3. **The Competition** - Other Popular Budget HTs
-4. **Table Stakes Features** - What to Expect
-5. **Claims to Fame** - What Sets Each Apart
-6. **Getting Licensed**
-7. **Q&A**
+*Last updated: May 13, 2026 at 12:00 GMT*
+*Fork this presentation at [github.com/payne/TDH3plus](https://github.com/payne/TDH3plus)*
 
 ---
+
+# Agenda
+
+1. [**Why Budget HAM Radios?**](#why-budget)
+2. [**Meet the TD-H3 Plus**](#td-h3-plus) (Live Demo)
+3. [**The Competition**](#competition) - Other Popular Budget HTs
+4. [**Table Stakes Features**](#table-stakes) - What to Expect
+5. [**Claims to Fame**](#claims-to-fame) - What Sets Each Apart
+6. [**Getting Licensed**](#licensing)
+7. [**Q&A**](#qa)
+
+---
+
+<a id="why-budget"></a>
 
 # Why Budget HAM Radios?
 
@@ -85,6 +111,8 @@ style: |
 **Today's $50 radio outperforms $300 radios from 15 years ago**
 
 ---
+
+<a id="td-h3-plus"></a>
 
 # Meet the TD-H3 Plus
 
@@ -189,6 +217,8 @@ Browser → Bluetooth → Radio
 
 ---
 
+<a id="competition"></a>
+
 # The Competition
 
 ## Popular Budget HTs Under $100
@@ -284,6 +314,8 @@ Browser → Bluetooth → Radio
 
 ---
 
+<a id="table-stakes"></a>
+
 # Table Stakes Features
 
 ## What Every Budget HT Should Have
@@ -301,6 +333,8 @@ Browser → Bluetooth → Radio
 
 ---
 
+<a id="claims-to-fame"></a>
+
 # Claims to Fame Summary
 
 ## What Sets Each Radio Apart
@@ -316,6 +350,8 @@ Browser → Bluetooth → Radio
 | **Wouxun KG-UV9P** | Premium feel, solid performance |
 
 ---
+
+<a id="licensing"></a>
 
 # Do I Need a License?
 
@@ -441,6 +477,8 @@ A: Some allow it, but it's illegal without authorization.
 - Local ham radio clubs
 
 ---
+
+<a id="qa"></a>
 
 # Q&A
 
