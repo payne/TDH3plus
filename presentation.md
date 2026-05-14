@@ -110,11 +110,27 @@ style: |
 ![bg right:40% 80%](https://via.placeholder.com/300x500/1a1a2e/00d4ff?text=TD-H3+Plus)
 
 - **Price:** ~$50-70
-- **Bands:** 8-band coverage (VHF/UHF + more)
-- **Power:** 5W output
-- **Battery:** 2500mAh Li-Po
-- **Channels:** 199 programmable
-- **Charging:** USB-C
+- **Power:** 5W output | **Battery:** 2500mAh Li-Po
+- **Channels:** 199 programmable | **Charging:** USB-C
+
+---
+
+# TD-H3 Plus: 8-Band Coverage
+
+## Wide Frequency Range
+
+| Band | Frequency | Mode |
+|------|-----------|------|
+| Air Band | 108-136 MHz | RX |
+| FM Broadcast | 76-108 MHz | RX |
+| VHF | 136-174 MHz | TX/RX |
+| VHF Extended | 174-350 MHz | RX |
+| UHF Low | 350-400 MHz | RX |
+| UHF | 400-470 MHz | TX/RX |
+| UHF Extended | 470-600 MHz | RX |
+| NOAA Weather | 162 MHz | RX |
+
+**TX/RX** = Transmit and Receive | **RX** = Receive Only
 
 ---
 
