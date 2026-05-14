@@ -109,3 +109,22 @@ Fork this presentation at https://github.com/payne/TDH3plus
 Added to the bottom of slide 1:
 - Last updated: May 13, 2026 at 12:00 GMT
 - Fork link: github.com/payne/TDH3plus
+
+## User
+Set things up so each time I push to github index.html is regenerated. I want to use github pages to serve the presentation.
+
+## Assistant
+Created GitHub Actions workflow and configuration:
+
+**Files created:**
+- `.github/workflows/deploy.yml` - Builds presentation and deploys to GitHub Pages
+- `.gitignore` - Excludes node_modules and system files
+
+**Setup steps for GitHub:**
+1. Push the repo to GitHub
+2. Go to Settings > Pages
+3. Under "Build and deployment", select **GitHub Actions** as the source
+4. The workflow will run automatically on each push to `main`
+
+**Your presentation will be available at:**
+`https://payne.github.io/TDH3plus/`
