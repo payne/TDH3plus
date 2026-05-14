@@ -113,6 +113,8 @@ style: |
 - **Power:** 5W output | **Battery:** 2500mAh Li-Po
 - **Channels:** 199 programmable | **Charging:** USB-C
 
+![$80 for two radios](i/image.png)
+
 ---
 
 # TD-H3 Plus: 8-Band Coverage
