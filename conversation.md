@@ -128,3 +128,26 @@ Created GitHub Actions workflow and configuration:
 
 **Your presentation will be available at:**
 `https://payne.github.io/TDH3plus/`
+
+## User
+Plus put the information from slide 2 at the bottom of slide 1, then delete slide 2
+
+## Assistant
+Consolidated slide 1 to include:
+- Title: Budget HAM Handhelds
+- Subtitle: VHF/UHF Radios Under $100 | Featuring the TD-H3 Plus
+- Full agenda with hyperlinks
+- Last updated & fork link at bottom
+
+Deleted the separate agenda slide.
+
+## User
+Change things so that date and time of last update are automatically updated
+
+## Assistant
+Updated to auto-generate timestamp on each build:
+
+1. Changed `presentation.md` to use placeholder `{{LAST_UPDATED}}`
+2. Updated GitHub Actions workflow to replace placeholder with current GMT time before building
+
+Format: "May 13, 2026 at 14:30 GMT"

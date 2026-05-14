@@ -30,6 +30,11 @@ jobs:
       - name: Install Marp CLI
         run: npm install -g @marp-team/marp-cli
 
+      - name: Update timestamp
+        run: |
+          TIMESTAMP=$(date -u "+%B %d, %Y at %H:%M GMT")
+          sed -i "s/{{LAST_UPDATED}}/$TIMESTAMP/g" presentation.md
+
       - name: Build presentation
         run: marp presentation.md -o index.html --html
 

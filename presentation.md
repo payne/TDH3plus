@@ -56,20 +56,7 @@ style: |
 ---
 
 # Budget HAM Handhelds
-## VHF/UHF Radios Under $100
-
-### Featuring the TD-H3 Plus
-
-*Your gateway to amateur radio without breaking the bank*
-
----
-
-*Last updated: May 13, 2026 at 12:00 GMT*
-*Fork this presentation at [github.com/payne/TDH3plus](https://github.com/payne/TDH3plus)*
-
----
-
-# Agenda
+## VHF/UHF Radios Under $100 | Featuring the TD-H3 Plus
 
 1. [**Why Budget HAM Radios?**](#why-budget)
 2. [**Meet the TD-H3 Plus**](#td-h3-plus) (Live Demo)
@@ -78,6 +65,8 @@ style: |
 5. [**Claims to Fame**](#claims-to-fame) - What Sets Each Apart
 6. [**Getting Licensed**](#licensing)
 7. [**Q&A**](#qa)
+
+*Last updated: {{LAST_UPDATED}}* | *Fork: [github.com/payne/TDH3plus](https://github.com/payne/TDH3plus)*
 
 ---
 
